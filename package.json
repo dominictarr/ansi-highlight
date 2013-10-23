@@ -1,6 +1,6 @@
 {
   "name": "ansi-highlight",
-  "description": "",
+  "description": "js syntax-highlighting for the terminal",
   "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/ansi-highlight",
   "repository": {
@@ -8,11 +8,10 @@
     "url": "git://github.com/dominictarr/ansi-highlight.git"
   },
   "dependencies": {
-    "js-tokenizer": "*",
-    "colors" : "*"
+    "js-tokenizer": "~1.3.1",
+    "colors": "~0.6.2"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
