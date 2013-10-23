@@ -6,7 +6,7 @@ highlight javascript in the terminal
 
 ``` js
 var highlight = require('ansi-highlight')
-var js = require('fs').readFileSync(__filename, 'utf8'))
+var js = require('fs').readFileSync(__filename, 'utf8')
 console.log(highlight(js))
 ```
 
